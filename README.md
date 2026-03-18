@@ -1,11 +1,11 @@
-# HealthGPT - Intelligent Disease Prediction & Health Assistant
+# Hayat - Intelligent Disease Prediction & Health Assistant
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.29.0-FF4B4B)
 ![Gemini API](https://img.shields.io/badge/Google%20Gemini-AI-purple)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-**HealthGPT** is a comprehensive health platform that combines Machine Learning and Generative AI to provide early disease prediction and personalized health advice. It features a specialized AI chatbot and predictive models for Diabetes, Heart Disease, and Parkinson's.
+**Hayat** is a comprehensive health platform that combines Machine Learning and Generative AI to provide early disease prediction and personalized health advice. It features a specialized AI chatbot and predictive models for Diabetes, Heart Disease, and Parkinson's.
 
 ## 🚀 Features
 
@@ -69,7 +69,7 @@
 
 ## ⚠️ Medical Disclaimer
 
-**HealthGPT is an informational tool and NOT a substitute for professional medical advice, diagnosis, or treatment.**
+**Hayat is an informational tool and NOT a substitute for professional medical advice, diagnosis, or treatment.**
 *   The predictions are based on machine learning models and may not always be 100% accurate.
 *   Always consult with a qualified healthcare provider for any medical concerns.
 *   In case of a medical emergency, contact your local emergency services immediately.

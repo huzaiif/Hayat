@@ -1,0 +1,79 @@
+/* Custom CSS for Hayat */
+
+/* Base Typography */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Sidebar Styling */
+[data-testid="stSidebar"] {
+    background-color: #f8f9fa;
+    border-right: 1px solid #e9ecef;
+}
+
+[data-testid="stSidebarNav"] {
+    display: none;
+}
+
+/* Buttons */
+div.stButton > button:first-child {
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+div.stButton > button:first-child:hover {
+    background-color: #0b5ed7;
+    box-shadow: 0 4px 8px rgba(13, 110, 253, 0.2);
+    color: white;
+}
+
+/* Dashboard Cards */
+.metric-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    text-align: center;
+    border: 1px solid #f1f3f5;
+    margin-bottom: 1rem;
+}
+
+.metric-value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #0d6efd;
+    margin-bottom: 0.5rem;
+}
+
+.metric-label {
+    font-size: 1.1rem;
+    color: #495057;
+    font-weight: 500;
+}
+
+/* Custom Message boxes */
+.stSuccess {
+    border-left-color: #198754;
+}
+
+.stError {
+    border-left-color: #dc3545;
+}
+
+.stWarning {
+    border-left-color: #ffc107;
+}
+
+/* Divider styling */
+hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-top: 1px solid #dee2e6;
+}
